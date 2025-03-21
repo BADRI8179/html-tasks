@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <center><h1>Registration form</h1></center>
+        <br>
+        <form action="./new.html" method="get">
+        <label for="name">FullName:</label>
+         <input type="text" id="name" name="user" value="name" maxlength="15">
+         <br>
+         <label for="Email">Email:</label>
+         <input type="email" id="Email" name="mail" placeholder="abc@gmail.com">
+         <br>
+         <label for="password">Password:</label>
+         <input type="password" id="password" name="word" minlength="4">
+         <br>
+         <label >Tel:</label>
+         <input type="number" name="phone"  autocomplete="off">
+         <br>
+         <label >Country:</label>
+         <input type="text" name="Country" value="India" disabled>
+         <br>
+         <label >National Id no:</label>
+         <input type="number" name="id" autofocus="on">
+         <br>
+         <br>
+    
+         <Fieldset><legend>Personal Details</legend>
+         <label >Date of Birth:</label>
+         <input type="date" name="d day" required>
+         <br>
+         <label >Time:</label>
+         <input type="time" name="day">
+         <br>
+         <label >Gender:</label>
+         <input type="radio" name="gender" ><label >Male:</label>
+         <input type="radio" name="gender" ><label >Female:</label>
+         <br>
+         <label >Marital status:</label>
+         <input type="text" name="marriage">
+         <br>
+        </Fieldset>
+        <br>
+
+       <fieldset><legend>Address</legend>
+        <label >Present Address:</label>
+        <input type="text" name="Address" required>
+        <br>
+        <label >City:</label>
+        <input type="text" name="city">
+        <br>
+        <label >Pin Code:</label>
+        <input type="number" name="number">
+    </fieldset>
+    <br>
+      <fieldset><legend>Technical Skills</legend>
+        <label >Skills:</label>
+        <input type="checkbox" name="Skills"><label for="">Communication:</label>
+        <input type="checkbox" name="Skills"><label for="">Problem Solving:</label>
+        <input type="checkbox" name="Skills"><label for="">Time Management:</label>
+        <input type="checkbox" name="Skills"><label for="">Critical thinking:</label>
+
+    </fieldset>
+     <label >Range:</label> 
+         <input type="range" name="range">
+         <br>
+         <center><input type="submit" ></center>
+         <input type="reset" >
+        </form>
+</body>
+</html>
